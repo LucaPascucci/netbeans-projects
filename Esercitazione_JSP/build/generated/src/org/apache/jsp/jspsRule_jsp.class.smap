@@ -1,0 +1,14 @@
+SMAP
+jspsRule_jsp.java
+JSP
+*S JSP
+*F
++ 0 jspsRule.jsp
+jspsRule.jsp
+*L
+1,2:45
+3:10
+3,8:47
+11:55,3
+12,3:58
+*E

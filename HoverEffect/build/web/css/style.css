@@ -1,0 +1,96 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica Neue; 
+}
+
+/*Titolo*/
+
+div#titolo{
+	width:100%;
+	margin-top:100px;
+}
+
+p#header{
+	text-align: center;
+	font-size: 2.5em;
+	color:#9a9a9a;
+}
+
+p#subHeader{
+	text-align: center;
+	color:#cecece;
+	margin-top:20px;
+	font-size: 1.3em;
+}
+
+header{
+	margin:100px auto;
+	width:1200px;
+	height:230px;
+	background-color: red;
+}
+
+div.contenitore{
+	width: 200px;
+	height: 230px;
+	float:left;
+	-webkit-transition: height .4s;
+}
+
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#due{
+	background-color: rgb(233,147,26);
+}
+
+div#tre{
+	background-color: rgb(22,145,190);
+}
+
+div#quattro{
+	background-color: rgb(22,107,162);
+}
+
+div#cinque{
+	background-color: rgb(27,54,71);
+}
+
+div#sei{
+	background-color: rgb(21,40,54);
+}
+
+img.icon{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:40px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.testo{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+div.contenitore:hover{
+	height:250px;
+}
+
+div.contenitore:hover p.testo{
+	padding-top: 30px;
+	opacity: 1;
+}
+
+div.contenitore:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
