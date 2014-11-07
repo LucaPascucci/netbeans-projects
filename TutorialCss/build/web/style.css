@@ -167,7 +167,7 @@ a:hover, a:active{
 }
 
 //cazzo è sta roba???
-@media only screen and (min-width: 100px) and (max-width: 400px) {
+@media only screen and (min-width: 150px) and (max-width: 500px) {
 
     .body{
         width: 90%;
@@ -192,9 +192,9 @@ a:hover, a:active{
     }
 
     .mainHeader nav a:link, .mainHeader nav a:visited {
+        display: block;
         padding: 10px 25px;
         height: 20px;
-        display: block;
     }
 
     .content{
