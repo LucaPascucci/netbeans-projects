@@ -1,0 +1,12 @@
+<h1>Sito Esercitazione JSP Fragments</h1>
+<% if (session != null) {
+        String nomeSessione = (String) session.getAttribute("nome");
+        String cognomeSessione = (String) session.getAttribute("cognome");
+        if (nomeSessione != null && cognomeSessione != null) {%>
+<div id="status">
+    <p>
+        Sei loggato come <%= nomeSessione%> <%= cognomeSessione%>
+    </p>
+</div>
+<%}%>
+<%}%>

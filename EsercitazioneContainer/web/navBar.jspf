@@ -1,0 +1,14 @@
+<%--
+<a href="index.jsp">Home</a>
+<% String nomeSessione = (String) session.getAttribute("nome");
+    if (nomeSessione == null) { %>
+<a href="login.jsp">Login</a>
+<%} else { %>
+<%-- <a href="logout.jsp">Logout</a>
+<%}%>
+--%>
+
+<a href="index.jsp">Home</a>
+<a href="login.jsp">Login</a>
+<a href="logout.jsp">Logout</a>
+<a href="registrazioni.jsp">Registrazione</a>
