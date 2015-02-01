@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-gen-2015, 15.24.03
+    Author     : Luca
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+    font: 16px "Courier New";
+    background-color: white;
+}
+
+#container {
+    width: 90%;
+    min-width: 800px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 34px;
+    letter-spacing: 4px;
+}
+
+nav {
+    height: 242px;
+    width: 210px;
+    background-color: #b0c4de;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav > *{
+    display: block;
+    height: 45px;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    width: 100%;
+    color: black;
+}
+
+nav > *:hover{
+    color: white;
+    background-color: #2f4f4f;
+    padding-right: 10px;
+    right: -10px;
+}
+
+article {
+    margin-left: 230px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#status {
+    position: absolute;
+    top: 442px;
+    left: 0px;
+    width: 218px;
+    border: 1.5px dashed black;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+footer {
+    height: 80px;
+    background-color: #2f4f4f;
+    clear: both;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+table{
+    float: left;
+    width: 422px;
+    height: 242px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table thead {
+    color: white;
+    background-color: #b0c4de;
+}
+
+#today{
+    background-color: #6cb750;
+}
+
+.sunday {
+    color: red;
+}
+
+.specialday{
+    background-color: #ffcc66;
+}
+
+aside {
+    margin-left: 432px;
+    padding: 20px;
+    min-height: 202px;
+    background-color: #b0c4de;
+    text-align: justify;
+}
+
+.fontsize {
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+section {
+    padding: 10px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #6cb750; 
+}
+
+section ul {
+    margin-left: 12px;
+}
+
+form {
+    width: 450px;
+    border: 1px solid #b0c4de;
+    margin-bottom: 60px;
+}
+
+form div {
+    margin: 50px;
+    text-align: right;
+}
+
+form div input{
+    margin-left: 30px;
+}
+
+.risposta {
+    text-align: center;
+    margin: 100px 40px 250px 40px;
+}

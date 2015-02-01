@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-gen-2015, 9.43.15
+    Author     : Luca
+*/
+
+/* sempre così */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    background: white;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: 16px "Courier New";
+}
+
+#container {
+    width: 80%;
+    min-width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+header {
+    margin-bottom: 20px;
+    
+}
+
+header h1{
+    font-size: 34px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#status {
+    letter-spacing: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    border: black dotted 1.5px;
+    text-align: center;
+}
+
+.usermail {
+    font-size: 14px;
+}
+
+nav {
+    background: #b0c4de;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    background: transparent;
+}
+
+nav a:hover{
+    color: white;
+    background: #2f4f4f;
+}
+
+article{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+table{
+    width: 420px;
+    height: 240px;
+    border: black solid 1px;
+    border-collapse: collapse;
+    float: left;
+    text-align: center;
+}
+
+table thead{
+    background: #b0c4de;
+    color: white;
+}
+
+#today{
+    background: #6cb750;
+}
+
+.sunday {
+    color: red;
+}
+
+section {
+    width: 400px;
+    height: 120px;
+    margin-top: 10px;
+    background: #6cb750;
+    float: left;
+    clear: left;
+    padding: 10px;
+}
+
+section ul{
+    padding-left: 10px;
+}
+
+aside{
+    padding: 20px;
+    margin-left: 452px;
+    width: auto;
+    height: auto;
+    min-height: 370px;
+    background: #b0c4de;
+    text-align: justify;
+    color: white;
+}
+
+
+
+aside:hover .show{
+    visibility: visible;
+}
+
+aside .show{
+    visibility: hidden;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+footer {
+    height: 60px;
+    background: #2f4f4f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+form {
+    border: #b0c4de solid 1px;
+    width: 420px;
+    height: auto;
+}
+
+form p {
+    display: block;
+    text-align: right;
+    margin: 15px;
+}
+
+form p input{
+    margin: 30px;
+}

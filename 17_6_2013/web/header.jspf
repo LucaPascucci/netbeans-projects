@@ -1,0 +1,18 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<h1>agenda di giugno <img src="libri.png" alt="libri"/></h1>
+    <%
+        if (session.getAttribute("nome") != null) {
+            String nome = (String) session.getAttribute("nome");
+            String cognome = (String) session.getAttribute("cognome");
+            String data = (String) session.getAttribute("nascita");
+
+    %>
+<div id="status">
+    <p>Benvenuto <%=nome%> <%=cognome%> !</p>
+    <p id="date">nato il: <%=data%></p>
+</div>
+<%
+    }
+%>

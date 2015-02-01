@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-gen-2015, 11.34.55
+    Author     : Luca
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: black;
+    font: 12px "Courier New";
+    background: white;
+}
+div{
+    width: 90%;
+    margin: 0px auto 0px auto;
+}
+
+header{
+    font-size: 16px;
+    letter-spacing: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #b0c4de;
+}
+
+nav a {
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #2f4f4f;
+}
+
+article {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+footer {
+    height: 20px;
+    background-color: #2f4f4f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    clear: both;
+}
+
+table{
+    width: 420px;
+    height: 240px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+}
+
+thead th{
+    background: #b0c4de;
+    color: white;
+}
+
+td.sunday{
+    color: red;
+}
+
+td.today{
+    background-color: #6cb750; 
+}
+
+aside{
+    background: #b0c4de;
+    margin-left: 452px;
+    text-align: justify;
+}

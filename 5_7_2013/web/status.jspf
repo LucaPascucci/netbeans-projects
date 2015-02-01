@@ -1,0 +1,19 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<%
+    if (session.getAttribute("name") != null){
+       String sessionName = (String) session.getAttribute("name");
+       String sessionSurname = (String) session.getAttribute("surname");
+       String sessionPlace = (String) session.getAttribute("place");
+       String SessionProv = (String) session.getAttribute("prov");
+ %>
+<div id="status">
+    <p>benvenuto</p>
+    <p class="fontsize bold"><%=sessionName%> <%=sessionSurname%></p>
+    <p>nato a:</p>
+    <p class="fontsize bold"><%=sessionPlace%>,<%=SessionProv%></p>
+</div>
+ <%   
+    }
+ %>

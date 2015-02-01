@@ -1,0 +1,18 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<%
+    {
+       String name = (String) session.getAttribute("name");
+       String surname = (String) session.getAttribute("surname");
+       String mail = (String) session.getAttribute("mail");
+    
+       if (name != null){
+        
+%>
+<div id="status">
+    <p>Benvenuto <%= name %> <%= surname %> !</p>
+    <p class="usermail">mail: <%= mail %> </p>
+</div>
+<%    }
+    }%>
+<h1>agenda di febbraio <img src="libri.png" alt="libri"></h1>
