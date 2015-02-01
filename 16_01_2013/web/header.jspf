@@ -1,1 +1,3 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
 <h1>Agenda di gennaio<img src="libri.png" alt="libri"></h1>

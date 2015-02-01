@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
-        <div>
+        <div id="container">
             <header>
                 <%@include file="header.jspf"%>
             </header>
@@ -34,14 +34,13 @@
                     </tbody>
                 </table>
                 <aside>
-                    <p><u>John Howard Carpenter (Carthage, <b>16 gennaio 1948</b>)</u> &egrave; un regista, sceneggiatore, compositore, attore, produttore cinematografico e montatore statunitense.</p>
+                    <p><span class="underline">John Howard Carpenter (Carthage, <span class="bold italic">16 gennaio 1948</span>)</span> &egrave; un regista, sceneggiatore, compositore, attore, produttore cinematografico e montatore statunitense.</p>
                     <p>Tra i suoi lavori pi&ugrave; famosi si annoverano Distretto 13: le brigate della morte (1976), Halloween, la notte delle streghe (1978), 1997: fuga da New York (1981), La cosa (1982), Christine, la macchina infernale (1983), Essi vivono (1988) e Il seme della follia (1994).</p>
                     <p>Carpenter afferma spesso di essere stato influenzato dalle opere di Howard Hawks, Alfred Hitchcock e dalla serie televisiva Ai confini della realt&agrave;.</p>
-                    <p>I suoi film glorificano spesso degli antiñeroi, personaggi di estrazione proletaria e i suoi soggetti hanno spesso tematiche che riflettono una forte critica sulla societ&agrave; capitalistica americana.</p>
+                    <p>I suoi film glorificano spesso degli anti-eroi, personaggi di estrazione proletaria e i suoi soggetti hanno spesso tematiche che riflettono una forte critica sulla societ&agrave; capitalistica americana.</p>
                 </aside>
             </article>
             <footer>
-                
             </footer>
         </div>
     </body>

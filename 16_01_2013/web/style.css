@@ -8,24 +8,28 @@ and open the template in the editor.
     Author     : Luca
 */
 
-body {
-    margin: 0;
+*{
     padding: 0;
-    border: 0;
+    margin: 0;
+}
+
+#container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     color: black;
     font: 12px "Courier New";
     background: white;
 }
-div{
-    width: 90%;
-    margin: 0px auto 0px auto;
-}
 
 header{
-    font-size: 16px;
-    letter-spacing: 15px;
     padding: 20px;
     text-align: center;
+    font-size: 16px;
+}
+
+header h1{
+    letter-spacing: 15px;
 }
 
 nav {
@@ -51,6 +55,7 @@ article {
 }
 
 footer {
+    margin-top: 50px;
     height: 20px;
     background-color: #2f4f4f;
     border-top-left-radius: 10px;
@@ -59,12 +64,31 @@ footer {
 }
 
 table{
-    width: 420px;
-    height: 240px;
+    width: 421px;
+    height: 241px;
     border-collapse: collapse;
     border: 1px solid black;
     float: left;
     text-align: center;
+}
+
+aside{
+    background: #b0c4de;
+    margin-left: 452px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 thead th{
@@ -80,8 +104,16 @@ td.today{
     background-color: #6cb750; 
 }
 
-aside{
-    background: #b0c4de;
-    margin-left: 452px;
-    text-align: justify;
+form {
+    text-align: right;
+    width: 40%;
+    border: 1px solid #b0c4de;
+}
+
+form div{
+    margin: 50px;
+}
+
+form div input {
+    margin-left: 35px;
 }
