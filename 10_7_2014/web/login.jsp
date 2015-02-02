@@ -11,13 +11,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="checkForm.js" type="text/javascript"></script>
     </head>
     <body>
         <header>
             <%@include file="header.jspf" %>
         </header>
         <div id="container">
-            <form method="POST" action="checklog.jsp">
+            <form method="POST" action="checklog.jsp" id="login_form">
                 <div class="font12">
                     Username:<input type="text" placeholder="username" name="username" id="username"/>
                 </div>
