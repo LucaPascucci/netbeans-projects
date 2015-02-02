@@ -1,0 +1,8 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<img src="logo.png" alt="logo"/>
+<nav class="georgia font12">
+    <a href="index.jsp">HOME</a>
+    <a href="login.jsp">LOGIN</a>
+    <a>AMMINISTRAZIONE</a>
+</nav>

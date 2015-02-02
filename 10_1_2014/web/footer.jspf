@@ -1,0 +1,8 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<p class="font16 contatti georgia">CONTATTI:</p>
+<p class="font12">MAB:</p>
+<p class="font12">Corso di Tecnologie Web</p>
+<p class="font12">Scienze e Ingegneria Informatica, Via Sacchi 3 Cesena(FC)</p>
+<p class="font12">tel: 12345678</p>
+<p class="font12">mail: scienze@unibo.it</p>
