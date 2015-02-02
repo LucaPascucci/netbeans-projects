@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2-feb-2015, 15.35.34
+    Author     : Luca
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 900px;
+    color:black;
+    font-family: "Verdana",sans-serif;
+    position: relative;
+}
+
+.georgia{
+    font-family: "Georgia",serif;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font16{
+    font-size: 16px;
+}
+
+.font20{
+    font-size: 20px;
+}
+
+header {
+    height: 110px;
+    margin-bottom: 50px;
+}
+
+header div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header div img {
+    width: 470px;
+    height: 100px;  
+}
+
+header nav {
+    background-color: #1a1a1a;
+    padding: 10px;
+}
+
+header nav a{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: #1a1a1a;
+    background-color: white;
+}
+
+#status{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 1px dashed black;
+}
+
+#container {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    height: 59px;
+    clear: both;
+    background-color: #1a1a1a;
+    border: 1px solid black;
+    padding: 15px 0px 10px 0px;
+    
+    /*per ancorarlo al bordo*/
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    box-sizing: border-box;
+}
+
+footer p{
+    color: white;
+    margin-left: 20px;
+}
+
+section {
+    width: 500px;
+}
+
+section article {
+    margin-bottom: 50px;
+}
+
+.titoloArticle {
+    background-color: #1a1a1a;
+    border: 1px solid black;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.voto {
+    margin-bottom: 10px;
+}
+
+.voto a{
+    margin-left: 30px;
+}
+.imgArticle {
+    float: left;
+    width: 100px;
+    height: 60px;
+    margin: 20px;
+}
+
+.paragrafoArticle{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+aside {
+    float: right;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.titoloAside {
+    border-top: 1px solid #1a1a1a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.articoloAside{
+    text-align: justify;
+}
+
+form {
+    text-align: right;
+    border: 1px solid #1a1a1a;
+    width: 30%;
+}
+
+form div{
+    margin-right: 50px;
+}
+
+form div input {
+    margin-left: 20px;
+}
+

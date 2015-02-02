@@ -1,0 +1,20 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div>
+    <img src="logo.png" alt="logo"/>
+</div>
+
+<% 
+    if (session.getAttribute("login") != null){
+%>
+<div id="status">
+    <p class="font12">benvenuto</p>
+    <p class="font12 bold"><%=(String)session.getAttribute("login")%>
+</div>
+<%
+    }
+%>
+<nav class="georgia font12">
+    <a href="index.jsp">HOME</a>
+    <a href="login.jsp">LOGIN</a>
+</nav>
