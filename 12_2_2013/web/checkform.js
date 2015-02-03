@@ -1,6 +1,6 @@
-function checkForm(e) {
+function checkForm(event) {
     
-    var form = e.target;
+    var form = event.target;
     
     var index;
     var value;
@@ -10,7 +10,7 @@ function checkForm(e) {
         if (inputs[index].type !== "submit"){
             value = inputs[index].value;
             if (!testregex(value)){
-                e.preventDefault();
+                event.preventDefault();
                 alert("Ci sono controlli errati!");
                 return false;
             }

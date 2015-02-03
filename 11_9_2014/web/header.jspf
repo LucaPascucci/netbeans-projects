@@ -1,0 +1,19 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div>
+    <img src="logo.png" alt="logo"/>
+</div>
+
+<nav class="georgia">
+    <a href="index.jsp">HOME</a>
+    <a href="login.jsp">LOGIN</a>
+</nav>
+
+<% if (session.getAttribute("login") != null){ %>
+<div id="status">
+    <p>benvenuto</p>
+    <p class="bold"><%=(String)session.getAttribute("login")%></p>
+</div>
+<%
+   }
+%>

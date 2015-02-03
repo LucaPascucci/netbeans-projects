@@ -11,6 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="checkForm.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="container">
@@ -21,12 +22,12 @@
                 <%@include file="nav.jspf"%>
             </nav>
             <article>
-                <form method="post" action="checklog.jsp">
+                <form method="post" action="checklog.jsp" id="login_form">
                     <div>
-                        Username:<input type="text" placeholder="username" name="username"/>
+                        Username:<input type="text" placeholder="username" name="username" id="username"/>
                     </div>
                     <div>
-                        Data di Nascita:<input type="password" placeholder="username" name="password"/>
+                        Password:<input type="password" placeholder="password" name="password" id="password"/>
                     </div>
                     <div>
                         <input type="submit" value="Invia"/>
