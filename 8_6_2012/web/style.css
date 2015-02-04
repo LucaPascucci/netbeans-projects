@@ -115,3 +115,8 @@ body{
     margin: 5px;
     border-color: #cccccc;
 }
+
+#risposta {
+    font-weight: bold;
+    font-size: 20px;
+}
