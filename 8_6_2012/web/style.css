@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-feb-2015, 9.47.24
+    Author     : Luca
+*/
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    color: #cccccc;
+    font: 12px "Verdana",sans-serif;
+    background-color: black;
+}
+
+#container {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    line-height: 20px;
+}
+
+#top{
+    height: 60px;
+    padding-top: 20px;
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    text-align: center;
+    
+}
+
+#top h1{
+    font-size: 40px;
+}
+
+#content{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px;
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    text-align: justify;
+    min-height: 300px;
+}
+
+#navbar{
+    width: 250px;
+    padding-top: 250px;
+    border-top: 2px solid #cccccc;
+    float: left;
+    background-image: url(maya.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+#navbar a{
+    display: inline-block;
+    width: 220px;
+    margin-right: 20px;
+    height: 30px;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+#navbar a:hover{
+    background-color: #cccccc;
+    color: black;
+    height: 20px;
+}
+
+#statusbar{
+    float: right;
+    width: 250px;
+    padding-top: 250px;
+    border-top: 2px solid #cccccc;
+    background-image: url(maya.gif);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#status{
+    border-bottom: 1px solid #cccccc;
+    text-align: justify;
+    padding-right: 15px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+#content form {
+    border: 2px solid #cccccc;
+}
+
+#content form div{
+    text-align: right;
+    margin:10px 40px 10px 10px;
+}
+
+#content form div input{
+    margin-left:20px;
+}
+
+#content form fieldset{
+    margin: 5px;
+    border-color: #cccccc;
+}

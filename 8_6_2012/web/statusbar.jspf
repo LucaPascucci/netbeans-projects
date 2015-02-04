@@ -1,0 +1,20 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<% if (session.getAttribute("nomemaya") != null){
+   
+    String nomemaya = (String) session.getAttribute("nomemaya");
+    String uinal = (String) session.getAttribute("uinal");
+    String tun = (String) session.getAttribute("tun");
+    String katun = (String) session.getAttribute("katun");
+    String baktun = (String) session.getAttribute("baktun");
+    
+    
+%>
+<div id="status">
+    <p>
+        Utente loggato <%=nomemaya%>, nato il: unial <%=uinal%> tun <%=tun%> k'atun <%=katun%> b'ak'tun <%=baktun%> 
+    </p>             
+</div>
+<%
+   }
+%>
