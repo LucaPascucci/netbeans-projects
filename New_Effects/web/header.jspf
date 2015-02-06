@@ -1,0 +1,7 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<a href="index.jsp">Home</a>
+<a href="Flash_pulse.jsp">Flash and Pulse</a>
+<a href="animated_background.jsp">Animated Background</a>
+<a href="floating_element_shadows.jsp">FLS</a>
+<a href="index.jsp">Contact</a>
