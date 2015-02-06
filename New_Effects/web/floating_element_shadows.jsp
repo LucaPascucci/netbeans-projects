@@ -17,12 +17,8 @@
             <%@include file="header.jspf" %>
         </header>
         <div class="bot_container">
-            <div class="bot">
-                
-            </div>
-            <div class="bot_shadow">
-                
-            </div>
+            <div class="bot"></div>
+            <div class="bot_shadow"></div>
         </div>
     </body>
 </html>

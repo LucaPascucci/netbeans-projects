@@ -269,3 +269,22 @@ div {
     /* Per Safari e Chrome*/
     -webkit-transform:rotateY( 0deg );
 }
+
+.pic {
+    height: 50px;
+    width: 50px;
+}
+
+.picbig {
+    position: absolute;
+    width: 0px; /*per non mostrarla*/
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+    /* Per Safari e Chrome*/
+    -webkit-transition: width 0.3s linear 0s;
+}
+
+.pic:hover + .picbig{
+    /*quando sono sopra l'immagine piccola sostiuisco la larghezza della grande con 200*/
+    width: 200px;
+}

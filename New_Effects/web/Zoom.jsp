@@ -16,5 +16,10 @@
         <header id="menubar1">
             <%@include file="header.jspf" %>
         </header>
+        <img class="pic" src="Obama-head.png" alt="Obama"/>
+        <img class="picbig" src="Obama-head.png" alt="Obama"/>
+        
+        <img class="pic" src="heart.png" alt="Heart"/>
+        <img class="picbig" src="heart.png" alt="Heart"/>
     </body>
 </html>
