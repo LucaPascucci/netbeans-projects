@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9-feb-2015, 16.20.32
+    Author     : Luca
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font: 17px Arial;
+}
+#nav {
+    background-color: #72747D;
+}
+#nav_wrapper {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+    margin-top: 5px;
+    
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+}
+
+#nav ul li:hover {
+    
+    background-color: #2D3C82;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px 
+}
+
+.dropdown {
+    margin: 5px;
+}
+
+#nav ul li:hover a:hover{
+    color:#FFDD00;
+}
+
+#nav ul li a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+}
+
+#nav ul li:hover ul {
+    display: block;
+}
+
+#nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #2D3C82;
+    border: 5px solid #72747D;
+    border-top: 0px; 
+    margin-left: -40.5px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #FFDD00;
+    background-color: #72747D;
+    border-radius: 25px;
+}
+
