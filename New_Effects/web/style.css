@@ -218,7 +218,7 @@ div {
     width:240px; 
     height:200px; 
     margin:24px;
-    
+
     float:left;
 }
 .flip3D > .front{
@@ -287,4 +287,53 @@ div {
 .pic:hover + .picbig{
     /*quando sono sopra l'immagine piccola sostiuisco la larghezza della grande con 200*/
     width: 200px;
+}
+
+#center-wrap { 
+    width: 263px; 
+    height: 263px; 
+    position: absolute; 
+    margin: -131px 0 0 -131px; 
+    left: 50%; 
+    top: 50%; }
+
+#logo-wrap { 
+    width: 264px; 
+    height: 263px; 
+    position: relative; 
+    overflow: hidden;}
+
+#logo-wrap img { 
+    position: absolute; 
+}
+
+.mask { 
+    z-index: 9999; 
+}
+
+.color { 
+    z-index: 9977; 
+    top: -54px; 
+    left: -54px; 
+}
+
+.stripe { 
+    z-index: 9988; 
+    top: -85px; 
+    left: -54px; 
+    animation: rotate 20s linear infinite;
+    
+    /* Per Safari e Chrome*/
+    -webkit-animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate  {
+    from    { transform: rotate(0deg); }
+    to      { transform: rotate(360deg); }
+}
+
+/* Per Safari e Chrome*/
+@-webkit-keyframes rotate  {
+    from    { -webkit-transform: rotate(0deg); }
+    to      { -webkit-transform: rotate(360deg); }
 }
