@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-feb-2015, 19.05.22
+    Author     : Luca
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 12px "Verdana",sans-serif;
+}
+
+header{
+    width: 90%;
+    margin: 0 auto;
+    min-width: 400px;
+    position: relative;
+}
+
+header p img {
+    height: 150px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+header nav {
+    margin-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 5px 15px;
+    border-radius: 3px;
+    
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+header nav a:hover{
+    background-color: #FF8C00;
+}
+
+#status {
+    padding: 5px;
+    border: 1px solid grey;
+    position: absolute;
+    bottom: 50px;
+    right: 15px;
+}
+
+.background {
+    background-color: #DDDDDD;
+}
+
+article{
+    margin: 50px auto;
+    width: 701px;
+    border: 1px solid grey;
+}
+
+article section{
+    height: 150px;
+    width: 350px;
+}
+
+article section img{
+    vertical-align: middle;
+    height: 100px;
+    width: auto;
+    padding: 10px;
+}
+
+article section a {
+    text-decoration: none;
+    background-color: #FF8C00;
+    color: white;
+    padding: 5px;
+}
+
+#division {
+    float: right;
+    border-left: 1px solid grey;
+}
+
+footer{
+    height: 30px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
+
+article form {
+    width: 45%;
+    text-align: right;
+}
+
+article form div{
+    padding: 10px;
+}
+
+article form div input{
+    margin-left: 10px;
+    width: 140px;
+}
+
+#submitbutton {
+    width: 100px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.risposta {
+    margin-top: 15px;
+    margin-left: 10px;
+    min-height: 100px;
+}
+

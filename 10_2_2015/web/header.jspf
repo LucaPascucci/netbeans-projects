@@ -1,0 +1,32 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<p class="bold font20"><img src="logo.png" alt=""/>TW-COMMERCE</p>
+
+<nav>
+    <a href="index.jsp">Home</a>
+    <a href="login.jsp">Login</a>
+    <a href="registrazione.jsp">Registrazione</a>
+</nav>
+
+<% if (session.getAttribute("username") != null) {
+
+        if (session.getAttribute("name") != null) {
+%>
+<div id="status">
+    <p> utente loggato: <span class="bold"><%=session.getAttribute("name")%> <%=session.getAttribute("surname")%></span>
+        <%
+        } else {
+        %>
+<div id="status" class="background">
+    <p>
+            utente loggato: <span class="bold">Amministratore</span>
+            <%
+        }
+            %>
+        </p>
+    </div>
+
+<%        
+        }
+%>
+
