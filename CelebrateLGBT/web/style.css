@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-giu-2015, 12.51.35
+    Author     : iMac
+*/
+
+._122 .uiScaledImageContainer {
+    height: 98px;
+    width: 98px
+}
+
+._4lh ._122 .uiScaledImageContainer {
+    height: 103px;
+    width: 103px
+}
+
+._3zlh {
+    color: #9197a3;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0 auto;
+    padding: 32px 0;
+    width: 322px
+}
+
+._3zll {
+    color: #141823;
+    font-size: 28px;
+    font-weight: inherit;
+    padding-bottom: 22px;
+    text-align: center
+}
+
+._3zlm {
+    background: #ff3e18
+}
+
+._3zlr {
+    background: #fc9a00
+}
+
+._3zls {
+    background: #ffd800
+}
+
+._3zlt {
+    background: #39ea7c
+}
+
+._3zlu {
+    background: #0bb2ff
+}
+
+._3zlv {
+    background: #985aff
+}
+
+._3zlw {
+    height: 458px;
+    position: relative;
+    width: 458px
+}
+
+._3zlx {
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+._3zlx>div {
+    height: 16.67%;
+    width: 100%
+}
+
+._3zly {
+    -webkit-filter: grayscale(1) contrast(150%);
+    opacity: .8
+}
