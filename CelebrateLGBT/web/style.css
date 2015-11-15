@@ -60,9 +60,15 @@ and open the template in the editor.
 }
 
 ._3zlw {
+<<<<<<< HEAD
     height: 960px;
     position: relative;
     width: 720px
+=======
+    height: 458px;
+    position: relative;
+    width: 458px
+>>>>>>> 383a5181251011dedaed9559ce23967b2c9a5c89
 }
 
 ._3zlx {
